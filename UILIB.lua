@@ -237,9 +237,9 @@ function libraryv3:CreateWindow(name)
         Frame_32.Position = UDim2.new(0, 0, 1, 0)
         Frame_32.Size = UDim2.new(0, 179, 0, 4)
         TextButton.Parent = Frame
-        TextButton.BackgroundColor3 = Color3.new(0.192157, 0.709804, 0.329412)
+        TextButton.BackgroundColor3 = Color3.new(255, 93, 0)
         TextButton.BackgroundTransparency = 1
-        TextButton.BorderColor3 = Color3.new(0.192157, 0.709804, 0.329412)
+        TextButton.BorderColor3 = Color3.new(255, 93, 0)
         TextButton.BorderSizePixel = 0
         TextButton.Position = UDim2.new(0.0578947365, 0, 0.379999995, 0)
         TextButton.Size = UDim2.new(0, 179, 0, 26)
@@ -263,7 +263,7 @@ function libraryv3:CreateWindow(name)
         TextButton_Roundify_2px.Selectable = true
         TextButton_Roundify_2px.Size = UDim2.new(1, 0, 1, 0)
         TextButton_Roundify_2px.Image = "rbxassetid://3570695787"
-        TextButton_Roundify_2px.ImageColor3 = Color3.new(0.192157, 0.709804, 0.329412)
+        TextButton_Roundify_2px.ImageColor3 = Color3.new(255, 93, 0)
         TextButton_Roundify_2px.ScaleType = Enum.ScaleType.Slice
         TextButton_Roundify_2px.SliceCenter = Rect.new(100, 100, 100, 100)
         TextButton_Roundify_2px.SliceScale = 0.03
