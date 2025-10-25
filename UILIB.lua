@@ -180,12 +180,12 @@ function libraryv3:CreateWindow(name)
   
 
     TextLabel.Parent = main
-    TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+    TextLabel.BackgroundColor3 = Color3.new(1, 0.3647, 0)
     TextLabel.BackgroundTransparency = 1
     TextLabel.Size = UDim2.new(0, 190, 0, 34)
     TextLabel.Font = Enum.Font.Code
     TextLabel.Text = name
-    TextLabel.TextColor3 = Color3.new(1, 1, 1)
+    TextLabel.TextColor3 = Color3.new(1, 0.3647, 0)
     TextLabel.TextSize = 18
     
     Frame.Parent = main
@@ -219,7 +219,7 @@ function libraryv3:CreateWindow(name)
     TextLabel_2.Size = UDim2.new(0, 190, 0, 35)
     TextLabel_2.Font = Enum.Font.GothamBold
     TextLabel_2.Text = name
-    TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+    TextLabel_2.TextColor3 = Color3.new(1, 0.3647, 0)
     TextLabel_2.TextSize = 18
 
 
@@ -237,9 +237,9 @@ function libraryv3:CreateWindow(name)
         Frame_32.Position = UDim2.new(0, 0, 1, 0)
         Frame_32.Size = UDim2.new(0, 179, 0, 4)
         TextButton.Parent = Frame
-        TextButton.BackgroundColor3 = Color3.new(255, 93, 0)
+        TextButton.BackgroundColor3 = Color3.new(1, 0.3647, 0)
         TextButton.BackgroundTransparency = 1
-        TextButton.BorderColor3 = Color3.new(255, 93, 0)
+        TextButton.BorderColor3 = Color3.new(1, 0.3647, 0)
         TextButton.BorderSizePixel = 0
         TextButton.Position = UDim2.new(0.0578947365, 0, 0.379999995, 0)
         TextButton.Size = UDim2.new(0, 179, 0, 26)
@@ -257,18 +257,18 @@ function libraryv3:CreateWindow(name)
         TextButton_Roundify_2px.Parent = TextButton
         TextButton_Roundify_2px.Active = true
         TextButton_Roundify_2px.AnchorPoint = Vector2.new(0.5, 0.5)
-        TextButton_Roundify_2px.BackgroundColor3 = Color3.new(1, 1, 1)
+        TextButton_Roundify_2px.BackgroundColor3 = Color3.new(1, 0.3647, 0)
         TextButton_Roundify_2px.BackgroundTransparency = 1
         TextButton_Roundify_2px.Position = UDim2.new(0.5, 0, 0.5, 0)
         TextButton_Roundify_2px.Selectable = true
         TextButton_Roundify_2px.Size = UDim2.new(1, 0, 1, 0)
         TextButton_Roundify_2px.Image = "rbxassetid://3570695787"
-        TextButton_Roundify_2px.ImageColor3 = Color3.new(255, 93, 0)
+        TextButton_Roundify_2px.ImageColor3 = Color3.new(1, 0.3647, 0)
         TextButton_Roundify_2px.ScaleType = Enum.ScaleType.Slice
         TextButton_Roundify_2px.SliceCenter = Rect.new(100, 100, 100, 100)
         TextButton_Roundify_2px.SliceScale = 0.03
         TextLabel_3.Parent = TextButton_Roundify_2px
-        TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
+        TextLabel_3.BackgroundColor3 = Color3.new(1, 0.3647, 0)
         TextLabel_3.BackgroundTransparency = 1
         TextLabel_3.Size = UDim2.new(0, 179, 0, 26)
         TextLabel_3.Font = Enum.Font.GothamSemibold
@@ -294,7 +294,7 @@ function libraryv3:CreateWindow(name)
         TextBox.Font = Enum.Font.GothamSemibold
         TextBox.PlaceholderText = name
         TextBox.Text = ""
-        TextBox.TextColor3 = Color3.new(1, 1, 1)
+        TextBox.TextColor3 = Color3.new(1, 0.3647, 0)
         TextBox.TextSize = 14
         TextBox.MouseEnter:connect(function()
         RippleEffect(TextBox)
@@ -331,7 +331,7 @@ Frame_4.Size = UDim2.new(0, 179, 0, 30)
 
 Frame_5.Name = "Frame"
 Frame_5.Parent = Frame_4
-Frame_5.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_5.BackgroundColor3 = Color3.new(1, 0.3647, 0)
 Frame_5.BackgroundTransparency = 1
 Frame_5.BorderSizePixel = 0
 Frame_5.Position = UDim2.new(0.843575418, 0, 0, 0)
@@ -356,7 +356,7 @@ TextButton_Roundify_2px_2.Name = "TextButton_Roundify_2px"
 TextButton_Roundify_2px_2.Parent = TextButton_2
 TextButton_Roundify_2px_2.Active = true
 TextButton_Roundify_2px_2.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_2px_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton_Roundify_2px_2.BackgroundColor3 = Color3.new(1, 0.3647, 0)
 TextButton_Roundify_2px_2.BackgroundTransparency = 1
 TextButton_Roundify_2px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
 TextButton_Roundify_2px_2.Selectable = true
@@ -367,12 +367,12 @@ TextButton_Roundify_2px_2.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_2px_2.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_2px_2.SliceScale = 0.03
 TextLabel_4.Parent = Frame_4
-TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_4.BackgroundColor3 = Color3.new(1, 0.3647, 0)
 TextLabel_4.BackgroundTransparency = 1
 TextLabel_4.Size = UDim2.new(0, 145, 0, 27)
 TextLabel_4.Font = Enum.Font.GothamSemibold
 TextLabel_4.Text = " "..name
-TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_4.TextColor3 = Color3.new(1, 0.3647, 0)
 TextLabel_4.TextSize = 19
 TextLabel_4.TextWrapped = true
 TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
