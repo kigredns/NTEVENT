@@ -53,13 +53,13 @@ end
 local Library = {
     Colors = {
         Body = Color3.fromRGB(0, 0, 0);
-        Section = Color3.fromRGB(40, 40, 40);
-        CheckboxChecked = Color3.fromRGB(255, 255, 255);
+        Section = Color3.fromRGB(20, 20, 20);
+        CheckboxChecked = Color3.fromRGB(255, 93, 0);
         CheckboxUnchecked = Color3.fromRGB(50, 50, 50);
         Button = Color3.fromRGB(20, 20, 20);
         ColorPickerMarker = Color3.fromRGB(150, 150, 150);
         SliderBackground = Color3.fromRGB(50, 50, 50);
-        Slider = Color3.fromRGB(255, 255, 255);
+        Slider = Color3.fromRGB(255, 93, 0);
         Dropdown = Color3.fromRGB(45, 45, 45);
         DropdownButton = Color3.fromRGB(35, 35, 35);
         DropdownButtonHover = Color3.fromRGB(45, 45, 45);
@@ -380,9 +380,9 @@ TextButton_2.MouseButton1Down:connect(function()
     Enabled = not Enabled
     
     if Enabled then
-        TextButton_Roundify_2px_2.ImageColor3 = Color3.fromRGB(49, 181, 84)
+        TextButton_Roundify_2px_2.ImageColor3 = Color3.fromRGB(255, 93, 0)
     elseif not Enabled then
-        TextButton_Roundify_2px_2.ImageColor3 = Color3.fromRGB(30,30,30)
+        TextButton_Roundify_2px_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
     end
     RippleEffect2(TextButton_Roundify_2px_2)
     action(Enabled)
